@@ -116,8 +116,8 @@ header {
     border: 1px solid var(--orange);
     background-color: var(--orange);
     border-radius: 5px;
-    padding: 10px 30px 10px 30px;
-    font-size: 20px;
+    padding: 12px 43px 12px 43px;
+    font-size: 17px;
     color: var(--white);
     text-decoration: none;
 }
@@ -164,3 +164,76 @@ header {
 }
 
 /*End Header*/
+
+/*About Us*/
+
+.content-aboutUs {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 120px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.content-aboutUs-text {    
+    margin-bottom: 50px;    
+    padding: 50px 100px 0px 100px;
+}
+
+.title-aboutUs {
+    font-size: 30px;    
+}
+
+.content-aboutUs-text p {
+    width: 125%;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.aboutUs-button {    
+    margin-top: 50px;    
+}
+
+.btn-aboutUs {
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    border-radius: 5px;
+    padding: 12px 43px 12px 43px;
+    font-size: 17px;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn-aboutUs:hover {    
+    color: var(--blue);
+    background-color: transparent;
+}
+
+.imagen-aboutUs {        
+    margin: 70px 80px 0px 0px;
+}
+
+/*End About Us*/
+
+/*Services*/
+
+.content-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue-light);
+    padding: 120px 100px 120px 100px;
+}
+
+.title-services {
+    font-size: 35px;    
+    color: var(--blue);
+}
+
+.content-services-text p{
+    margin-top: 20px;
+}
+
+
+
+/*End Services*/
