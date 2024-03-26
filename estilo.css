@@ -127,4 +127,40 @@ header {
     background-color: transparent;
 }
 
+.content-funtion {
+    display: flex;
+    margin-top: -7em;
+    padding: 0px 100px 0px 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-funtion {
+    width: calc(100%/3);    
+    margin: 10px;
+    padding: 50px;
+    background-color: var(--white);
+    box-shadow: 0 0px 15px 0 rgb(0, 0, 0, 0.2);
+}
+
+.card-funtion.active {
+    background-color: var(--orange);
+    color: var(--white);    
+}
+
+.card-funtion:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.bx {
+    font-size: 100px;
+}
+
+.card-funtion h5 {
+    font-size: 20px;    
+    font-weight: 400;
+}
+
 /*End Header*/
