@@ -1,5 +1,5 @@
 :root {
-    --blue: #0e60b7;
+    --blue: #0355cc;
     --blue-light: #d1e3ff;
     --indigo: #6610f2;
     --orange: #fd7e14;
@@ -60,8 +60,8 @@ header {
 
 .header-title {
     color: var(--blue);
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 .menu-screen {
@@ -88,7 +88,7 @@ header {
 }
 
 .header-content {
-    padding: 0px 100px 0px 80px;
+    padding: 0px 170px 0px 150px;
 }
 
 .header-content-text {
@@ -99,17 +99,13 @@ header {
 }
 
 .content-title {
-    width: 30%;
+    width: 50%;
     font-size: 20px;
     margin-bottom: 30px;
 }
 
 .content-title h1 {
     color: var(--blue);
-}
-
-.content-title p {
-    text-align: justify;
 }
 
 .header-button {
@@ -124,6 +120,11 @@ header {
     font-size: 20px;
     color: var(--white);
     text-decoration: none;
+}
+
+.btn-contact:hover {
+    color: var(--orange);
+    background-color: transparent;
 }
 
 /*End Header*/
