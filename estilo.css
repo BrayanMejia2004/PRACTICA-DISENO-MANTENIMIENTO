@@ -115,7 +115,7 @@ header {
 .btn-contact {
     border: 1px solid var(--orange);
     background-color: var(--orange);
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 12px 43px 12px 43px;
     font-size: 17px;
     color: var(--white);
@@ -197,7 +197,7 @@ header {
 .btn-aboutUs {
     border: 1px solid var(--blue);
     background-color: var(--blue);
-    border-radius: 5px;
+    border-radius: 2px;
     padding: 12px 43px 12px 43px;
     font-size: 17px;
     color: var(--white);
@@ -215,9 +215,9 @@ header {
 
 /*End About Us*/
 
-/*Services*/
+/*Home Services*/
 
-.content-services {
+.content-Homeservices {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,15 +225,53 @@ header {
     padding: 120px 100px 120px 100px;
 }
 
-.title-services {
+.title-Homeservices {
     font-size: 35px;    
     color: var(--blue);
 }
 
-.content-services-text p{
+.content-Homeservices-text p{
     margin-top: 20px;
 }
 
+/*End Home Services*/
 
+/*Our Services*/
 
-/*End Services*/
+.content-ourServices {    
+    text-align: center;
+    margin: 120px 100px 120px 100px;
+}
+
+.content-cards {
+    display: flex;
+    margin-top: 70px;
+}
+
+.card-ourServices {
+    width: calc(100%/3);
+    background-color: var(--white);
+    padding: 30px;
+    margin: 15px;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, 0.15);
+    transition: all 0.3 ease 0s;
+}
+
+.card-ourServices:hover {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.card-ourServices h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-ourServices img {
+    width: 25%;
+    height: 40%;
+}
+
+/*End Our Services*/
