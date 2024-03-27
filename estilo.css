@@ -142,6 +142,7 @@ header {
     padding: 50px;
     background-color: var(--white);
     box-shadow: 0 0px 15px 0 rgb(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in;
 }
 
 .card-funtion.active {
@@ -243,6 +244,10 @@ header {
     margin: 120px 100px 120px 100px;
 }
 
+.title-ourServices {
+    font-size: 32px;
+}
+
 .content-cards {
     display: flex;
     margin-top: 70px;
@@ -254,12 +259,14 @@ header {
     padding: 30px;
     margin: 15px;
     box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, 0.15);
-    transition: all 0.3 ease 0s;
+    transition: all 0.3s ease-in;
 }
 
-.card-ourServices:hover {
+.card-ourServices:hover,
+.card-ourServices img:hover {
     background-color: var(--orange);
     color: var(--white);
+    background-image: var(--white);
 }
 
 .card-ourServices h5 {
@@ -275,3 +282,83 @@ header {
 }
 
 /*End Our Services*/
+
+/*Clients*/
+
+.content-clients {
+    width: calc(100%);
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+    padding: 30px 100px 100px 152px;      
+}
+
+.content-clients h2 {
+    font-size: 30px;
+}
+
+.content-clients-text {
+    display: flex;
+    margin-top: 80px;    
+}
+
+.card-clients {
+    padding: 25px;
+    margin-right: 40px;
+    background: white;
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, 0.15);
+}
+
+.details-clients {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.info-clients {
+    padding-left: 20px;
+}
+
+.info-clients h6 {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.info-clients box-icon {
+    width: 12%;
+}
+
+.details-clients .comillas {
+    margin-left: 35%;    
+}
+
+.image-clients {
+    text-align: left;
+}
+
+.image-clients img {
+    border-radius: 50%;
+}
+
+.opinion-client {
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+}
+
+.carousel-btn-clients {
+    margin-top: 20px;
+}
+
+.carousel-btn-clients button {
+    cursor: pointer;
+    padding: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--blue);    
+    text-decoration: none;
+    border: none;
+    margin-right: 40px;
+}
+
+/*End Clients*/
