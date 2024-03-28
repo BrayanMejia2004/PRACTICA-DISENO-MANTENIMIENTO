@@ -81,9 +81,6 @@ header {
 
 .header-content {
     display: flex;
-}
-
-.header-content {
     padding: 0px 170px 0px 150px;
 }
 
@@ -183,7 +180,7 @@ header {
 
 .content-aboutUs-text p {
     width: 125%;
-    margin-top: 5px;
+    margin-top: 15px;
     text-align: left;
 }
 
@@ -540,3 +537,46 @@ a:hover .image{
     justify-content: center;
 }
 /*End Footer*/
+
+
+/*Responsive*/
+
+@media (max-width: 1200px) {
+    
+    .content-title {
+        width: 80%;    
+        margin-bottom: 30px;        
+    }  
+
+    .header-content {
+        min-width: 110%;
+    }
+    
+    .header-content img {
+        width: auto;
+        height: auto;
+        padding-left: 60px;
+    }
+
+    .imagen-aboutUs {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .title-Homeservices {        
+        font-size: 30px;
+    }
+
+    .image-clients img{
+        width: 80%;
+        height: 80%;
+    }   
+    
+    .info-clients {
+        margin-left: -30px;       
+    }
+
+    .map-contact iframe {
+        width: 500px;
+    }
+}
