@@ -578,10 +578,14 @@ a:hover .image{
     }
 }
 
+@media (max-width: 1029px) {
 
-@media (max-width: 990px) {
+}
+
+@media (max-width: 990px), (max-width: 1223px) {
     
-    .header-content {
+    .header-content,
+    .content-aboutUs-text {
         padding: 0px 60px 0px 60px;
     }
 
@@ -591,6 +595,10 @@ a:hover .image{
 
     .content-aboutUs {
         margin-top: 80px;
+    }    
+
+    .imagen-aboutUs {
+        margin-left: 20px;
     }
 
     .content-Homeservices,
