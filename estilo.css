@@ -256,11 +256,9 @@ header {
     transition: all 0.3s ease-in;
 }
 
-.card-ourServices:hover,
-.card-ourServices img:hover {
+.card-ourServices:hover {
     background-color: var(--orange);
     color: var(--white);
-    background-image: var(--white);
 }
 
 .card-ourServices h5 {
@@ -280,7 +278,6 @@ header {
 /*Clients*/
 
 .content-clients {
-    width: calc(100%);
     text-align: center;
     justify-content: center;
     align-items: center;    
@@ -579,4 +576,66 @@ a:hover .image{
     .map-contact iframe {
         width: 500px;
     }
+}
+
+
+@media (max-width: 990px) {
+    
+    .header-content {
+        padding: 0px 60px 0px 60px;
+    }
+
+    .content-funtion {
+        margin-top: -5em;
+    }
+
+    .content-aboutUs {
+        margin-top: 80px;
+    }
+
+    .content-Homeservices,
+    .content-clients,
+    .content-contact {
+        padding: 60px;
+    }
+
+    .content-Homeservices img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
+    .content-ourServices {
+        display: flex; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .content-cards {    
+        width: 110%;
+    }  
+    
+    .card-ourServices {
+        padding-bottom: 60px;
+    }
+
+    .content-clients,
+    .content-clients-text,
+    .card-clients,
+    .details-clients{
+        width: 100%;
+    }
+
+    .content-clients-text {
+        margin-left: 20px;
+    }
+
+    .carousel-btn-clients {
+        margin-left: 35px;
+    }
+
+    .map-contact iframe {
+        width: 400px;
+    }
+    
 }
