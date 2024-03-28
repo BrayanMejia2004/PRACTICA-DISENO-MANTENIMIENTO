@@ -99,13 +99,13 @@ header {
 }
 
 .content-title {
-    width: 50%;
-    font-size: 20px;
+    width: 50%;    
     margin-bottom: 30px;
 }
 
 .content-title h1 {
     color: var(--blue);
+    font-size: 40px;
 }
 
 .header-button {
@@ -290,7 +290,7 @@ header {
     text-align: center;
     justify-content: center;
     align-items: center;    
-    padding: 30px 100px 100px 152px;      
+    padding: 30px 100px 100px 152px;
 }
 
 .content-clients h2 {
@@ -299,7 +299,7 @@ header {
 
 .content-clients-text {
     display: flex;
-    margin-top: 80px;    
+    margin-top: 100px;    
 }
 
 .card-clients {
@@ -362,3 +362,72 @@ header {
 }
 
 /*End Clients*/
+
+/*Contact*/
+
+.content-contact {   
+    display: flex;         
+    flex-direction: column;
+    padding: 30px 100px 100px 100px;
+}
+
+.content-contact h2 {
+    font-size: 32px;
+}
+
+.content-contact-text {
+    display: flex;
+    width: 100%;    
+    margin-top: 30px;    
+}
+
+form {
+    display: flex;
+    min-width: 50%;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+.contact-input {      
+    text-align: left;  
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: 10px;
+    padding: 16px 0px 16px 30px;    
+    box-shadow: 0px 0px 5px 2px rgb(0, 0, 0, 0.15);
+    text-decoration: none;
+    
+}
+
+form input::placeholder {
+    font-size: 15px;
+}
+
+#message {
+    padding: 50px 10px 50px 32px;
+}
+
+.contact-btn {
+    border: 1px solid var(--blue);
+    background-color: var(--blue);
+    border-radius: 2px;
+    padding: 12px 43px 12px 43px;
+    margin: 30px 0px 0px 10px;
+    font-size: 17px;
+    color: var(--white);
+    text-decoration: none;
+    max-width: 150px;
+}
+
+.contact-btn:hover {
+    background-color: transparent;
+    color: var(--blue);
+}
+
+
+
+
+
+
+/*End Contact*/
