@@ -429,7 +429,8 @@ form input::placeholder {
     justify-content: center;
     align-items: center;
     padding-top: 80px;
-    color: var(--white);
+    padding-bottom: 30px;
+    color: var(--white);    
 }
 
 .content-footer h2{
@@ -490,4 +491,49 @@ a:hover .image{
     background-color: var(--orange);
 }
 
+
+.content-followUs {
+    background-color: var(--footer);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+}
+
+.content-followUs-text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-icon {  
+    display: flex; 
+    background: var(--white);
+    max-width: 10%;
+    margin-top: 30px;
+    padding: 5px 30px 5px 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 23px;
+}
+
+.content-icon i:hover {
+    cursor: pointer;  
+    color: var(--orange) !important;
+}
+
+.copyright {
+    margin-top: 80px;
+    border-top: 1px solid var(--white);
+}
+
+.copyright p {
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
 /*End Footer*/
