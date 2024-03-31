@@ -66,6 +66,10 @@ header {
     gap: 3em;
 }
 
+.menu-mobile {
+    display: none;
+}
+
 .menu-screen li a {
     color: var(--dark);
     text-decoration: none;
@@ -729,3 +733,36 @@ a:hover .image{
     }
 }
 
+@media (max-width: 760px), (max-width: 500px) {
+
+    .menu-screen {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: flex;
+    }
+
+    .header-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: -130px;
+    }
+
+    .content-title h1 {
+        width: 50%;
+        font-size: 43px;    
+    }
+
+    .header-content-text p {
+        width: 90%;
+    }
+
+    .header-content img {
+        margin-top: 70px;
+        padding: 0;              
+    }
+
+    
+
+}
