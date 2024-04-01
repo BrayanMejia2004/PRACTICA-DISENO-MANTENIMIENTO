@@ -736,7 +736,7 @@ a:hover .image{
 @media (max-width: 760px), (max-width: 500px) {
 
     .menu-screen {
-        display: none;
+        display: none;        
     }
 
     .menu-mobile {
@@ -814,5 +814,9 @@ a:hover .image{
 
     .card-clients {
         margin-bottom: 20px;
+    }
+
+    .menu-screen.active {
+        display: flex;
     }
 }
