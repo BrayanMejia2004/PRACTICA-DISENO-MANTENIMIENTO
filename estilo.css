@@ -780,4 +780,39 @@ a:hover .image{
     .aboutUs-button {
         text-align: left;
     }
+
+    .content-Homeservices {
+        padding: 90px 20px 90px 20px;
+    }
+
+    .content-Homeservices img {
+        display: none;
+    }
+
+    .title-Homeservices {
+        font-size: 32px;
+    }
+
+    .imagen-aboutUs {        
+        margin: 10px 0px 0px 0px;
+    }
+
+    .content-cards {
+        display: flex;            
+        flex-direction: column;
+    }
+
+    .card-ourServices {
+        max-width: 100%;
+    }
+
+    .content-clients-text {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 50px 0px 0px;
+    }
+
+    .card-clients {
+        margin-bottom: 20px;
+    }
 }
