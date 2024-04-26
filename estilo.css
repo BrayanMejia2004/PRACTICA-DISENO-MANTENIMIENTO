@@ -173,7 +173,7 @@ header {
     justify-content: center; 
 }
 
-.content-aboutUs-text {    
+.content-aboutUs-text {      
     margin-bottom: 50px;    
     padding: 50px 100px 0px 100px;
 }
@@ -183,9 +183,10 @@ header {
 }
 
 .content-aboutUs-text p {
-    width: 125%;
+    width: 110%;
     margin-top: 15px;
     text-align: left;
+    text-align: justify;
 }
 
 .aboutUs-button {    
